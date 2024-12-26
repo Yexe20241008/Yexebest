@@ -1,0 +1,175 @@
+/* Общие стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff5e6;
+    color: #4d4d4d;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffcc00;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+header .logo img {
+    width: 50px;
+    height: 50px;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #ff6600;
+    margin-left: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    font-size: 1.2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #4d4d4d;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6600;
+}
+
+main {
+    margin-top: 20px;
+}
+
+/* Секция с контактами */
+#contact-info {
+    margin-bottom: 40px;
+}
+
+#contact-info h2 {
+    font-size: 2rem;
+    color: #ff6600;
+    margin-bottom: 20px;
+}
+
+#contact-info p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-item {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-item h3 {
+    font-size: 1.5rem;
+    color: #ff6600;
+}
+
+.contact-item p {
+    font-size: 1rem;
+    color: #4d4d4d;
+}
+
+.contact-item a {
+    color: #ff6600;
+    text-decoration: none;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+}
+
+/* Секция формы контакта */
+#contact-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contact-form h2 {
+    font-size: 2rem;
+    color: #ff6600;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-size: 1.1rem;
+    color: #4d4d4d;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.form-group button {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-group button:hover {
+    background-color: #e65c00;
+}
+
+/* Стили для футера */
+footer {
+    text-align: center;
+    background-color: #ffcc00;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1rem;
+    color: #4d4d4d;
+}

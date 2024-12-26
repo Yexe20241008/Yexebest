@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Баскетбол - Все о спорте</title>
+
+  <!-- Подключение Bootstrap CSS -->
+  <link rel="stylesheet" href="bootstrap.css">
+  <style>
+    /* Немного дополнительного стиля */
+    .hero-section {
+      background: url('https://example.com/your-image.jpg') no-repeat center center;
+      background-size: cover;
+      color: white;
+      padding: 100px 0;
+      text-align: center;
+    }
+    .hero-section h1 {
+      font-size: 3rem;
+    }
+    .news-section {
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Навигационная панель -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Баскетбол</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Переключить навигацию">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Главная</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Новости</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Команды</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Контакты</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Главный блок (герой секция) -->
+  <section class="hero-section">
+    <div class="container">
+      <h1>Добро пожаловать в мир Баскетбола!</h1>
+      <p>Читайте новости, следите за играми и получайте информацию о лучших командах мира.</p>
+    </div>
+  </section>
+
+  <!-- Новости -->
+  <section class="news-section">
+    <div class="container">
+      <h2>Новости</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://example.com/news-image1.jpg" class="card-img-top" alt="Новость 1">
+            <div class="card-body">
+              <h5 class="card-title">Новая победа команды!</h5>
+              <p class="card-text">Наши игроки продемонстрировали потрясающую игру в последнем матче...</p>
+              <a href="#" class="btn btn-primary">Читать далее</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://example.com/news-image2.jpg" class="card-img-top" alt="Новость 2">
+            <div class="card-body">
+              <h5 class="card-title">Трансфер сезона!</h5>
+              <p class="card-text">Самые яркие трансферы в мире баскетбола на этом сезоне...</p>
+              <a href="#" class="btn btn-primary">Читать далее</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://example.com/news-image3.jpg" class="card-img-top" alt="Новость 3">
+            <div class="card-body">
+              <h5 class="card-title">Прогнозы на следующую игру</h5>
+              <p class="card-text">Как команды готовятся к следующей встрече в турнире...</p>
+              <a href="#" class="btn btn-primary">Читать далее</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Таблица команд -->
+  <section class="teams-section">
+    <div class="container">
+      <h2>Таблица команд</h2>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Команда</th>
+            <th>Победы</th>
+            <th>Поражения</th>
+            <th>Очки</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Команда 1</td>
+            <td>15</td>
+            <td>5</td>
+            <td>45</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Команда 2</td>
+            <td>12</td>
+            <td>8</td>
+            <td>36</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Команда 3</td>
+            <td>10</td>
+            <td>10</td>
+            <td>30</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Подключение Bootstrap JS и Popper.js -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+

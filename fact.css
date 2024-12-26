@@ -1,0 +1,107 @@
+/* Общие стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff5e6;
+    color: #4d4d4d;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffcc00;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+header .logo img {
+    width: 50px;
+    height: 50px;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #ff6600;
+    margin-left: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    font-size: 1.2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #4d4d4d;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6600;
+}
+
+main {
+    margin-top: 20px;
+}
+
+/* Секция с фактами */
+#facts {
+    margin-bottom: 40px;
+}
+
+#facts h2 {
+    font-size: 2rem;
+    color: #ff6600;
+    margin-bottom: 20px;
+}
+
+.fact-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.fact-list li {
+    background-color: #fff;
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.fact-list h3 {
+    font-size: 1.5rem;
+    color: #ff6600;
+    margin-bottom: 10px;
+}
+
+.fact-list p {
+    font-size: 1rem;
+    color: #4d4d4d;
+}
+
+/* Стили для футера */
+footer {
+    text-align: center;
+    background-color: #ffcc00;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1rem;
+    color: #4d4d4d;
+}
